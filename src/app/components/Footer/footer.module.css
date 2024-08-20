@@ -1,0 +1,23 @@
+.footer {
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 20px;
+  transition: opacity 0.3s ease-in;
+}
+.icon:hover {
+  opacity: 1;
+}

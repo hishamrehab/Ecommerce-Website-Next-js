@@ -1,4 +1,4 @@
-import { Inter, Lalezar } from "next/font/google";
+import { Inter, Lalezar, Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="container">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
