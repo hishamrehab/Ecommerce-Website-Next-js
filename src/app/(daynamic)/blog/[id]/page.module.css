@@ -15,7 +15,7 @@
   margin: 25px;
 }
 .postImage {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
 }
 
@@ -33,4 +33,11 @@
   line-height: 26px;
   columns: 2;
   text-align: justify;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
 }
