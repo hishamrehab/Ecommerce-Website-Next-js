@@ -1,0 +1,36 @@
+.header {
+}
+.info {
+}
+.title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.desc {
+  font-size: 18px;
+}
+.imageContainer {
+  position: relative;
+  height: 300px;
+  margin: 25px;
+}
+.postImage {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.author {
+  position: absolute;
+  color: #111;
+  padding: 5px 10px;
+  bottom: 0;
+  right: 0;
+  background-color: aqua;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 26px;
+  columns: 2;
+  text-align: justify;
+}
